@@ -2,31 +2,34 @@
 
 # installation
 It is necessary to download the existing libraries in the project to run.
-Open the terminal in `TulaFly/back & TulaFly/front` folders and run (once in front, once in back)
-``` npm i ``` 
+Open the terminal in `weather-app/client & weather-app/server` folders and run (once in front, once in back)
+``` **npm i** ``` 
 
 # running
-Open the terminal in `TulaFly/back & TulaFly/front` folders and run  command (once in front, once in back)
-``` npm start ```
+Open the terminal in `weather-app/server & weather-app/client` folders and run  command 
+**Client**:
+``` **npm start** ```
+**Server**: 
+``` **npm run dev** ```
 
-I built the server in three layers:
+**I built the server in three layers:**
 services, routing, controllers
 
-The routing handles the handling of requests and referrals to the controllers.
+The **routing** handles the handling of requests and referrals to the controllers.
 
-The controller handles reviewing their test and performing verifications. A move is made to the services that manage the request.
+The **controller** handles reviewing their test and performing verifications. A move is made to the services that manage the request.
 
-The Services only deal with the interaction of receiving the information.
+The **Services** only deal with the interaction of receiving the information.
 
-I built the front
-On several levels
-components - responsible for all elements of the components
+**I built the front On several levels:**
 
-context - responsible for the context files
+**components** - responsible for all elements of the components
 
-hooks - which are responsible for all custom hooks
+**context** - responsible for the context files
 
-Page - folder responsible for all complex components
+**hooks** - which are responsible for all custom hooks
+
+**Page** - folder responsible for all complex components
 
 
 ## License
