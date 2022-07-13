@@ -1,0 +1,23 @@
+.card-display {
+  padding: 2rem;
+  background: #27737d 0% 0% no-repeat padding-box;
+  display: flex;
+  flex-direction: column;
+  height: 65vh;
+  width: 27.2rem;
+  border-radius: 30px;
+  justify-content: space-around;
+  text-align: center;
+}
+@media only screen and (max-width: 1300px) {
+  .card-display {
+    width: 60vh;
+    height: 75vh;
+  }
+}
+/* 1366/768 */
+@media only screen and (min-width: 1800px) {
+  .card-display  {
+    min-width: 40vh;
+  }
+}

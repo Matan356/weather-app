@@ -1,0 +1,39 @@
+.card-header {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  color: #a8c6cb;
+}
+.text-city {
+  font: normal normal normal 26px/26px Heebo, sans-serif;
+  color: #e8f1f2;
+  width: 25rem;
+  letter-spacing: 0;
+  height: 2.4rem;
+}
+
+.text-country {
+  font: normal normal 300 22px/1px Heebo, sans-serif;
+  width: 20rem;
+  height: 2rem;
+}
+
+.current-time {
+  font: normal normal 300 18px/1px Heebo, sans-serif;
+  width: 15rem;
+  height: 1.7rem;
+  letter-spacing: 0.1px;
+}
+.text-celsius {
+  letter-spacing: -0.2rem;
+  color: #ffffff;
+  width: 15rem;
+  height: 5rem;
+  font: normal normal bold 120px/120px Heebo, sans-serif;
+}
+.text-condition {
+  font: normal normal 30px/80px Heebo, sans-serif;
+  color: #e8f1f2;
+}

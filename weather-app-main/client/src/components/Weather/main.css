@@ -1,0 +1,14 @@
+.card-main {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+.text-static {
+  font: normal normal 300 20px/30px Heebo, sans-serif;
+  color: #e8f1f2;
+}
+.text-desc {
+  color: white;
+  font: normal normal bold 20px/30px Heebo, sans-serif;
+}

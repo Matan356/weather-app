@@ -1,0 +1,14 @@
+.card-footer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+.content-celsius {
+  color: white;
+  font: normal normal bold 20px/30px Heebo, sans-serif;
+}
+.content-hour {
+    font: normal normal 300 18px/22px Heebo, sans-serif;
+    color: #a8c6cb;
+  }
+  

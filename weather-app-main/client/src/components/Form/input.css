@@ -1,0 +1,40 @@
+.input-container {
+  padding: 2rem;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+}
+
+.text-underline {
+  color: #707070;
+  width: 4.8rem;
+  height: 1.5rem;
+  font: normal normal 300 16px/22px Heebo;
+  margin-left: 1rem;
+
+}
+
+.error-message {
+  color: #9a2e2e;
+  font: normal normal normal 1.2rem/1rem Heebo;
+margin: 0.5rem 0 0 1rem;
+}
+
+.input {
+  background-color: white;
+  width: 100%;
+  margin: 3px 0 3px 0;
+  border-radius: 10px;
+  border-width: 0;
+  outline: none;
+  color: #363636;
+  font: normal normal 300 20px/44px Heebo, sans-serif;
+}
+.input-div {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+  width: 27rem;
+  height: 3.5rem;
+}

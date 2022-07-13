@@ -1,0 +1,12 @@
+.btn-input {
+  width: 6rem;
+  height: 2.3rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  position: absolute;
+  cursor: pointer;
+  background: #046b3b 0% 0% no-repeat padding-box;
+  color: white;
+  border-width: 0;
+  margin-right: 0.4rem;
+}

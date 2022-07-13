@@ -1,0 +1,11 @@
+.main-container {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 1rem;
+}
+.main-nain {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  background: #f1f1f1 0% 0% no-repeat padding-box;
+}

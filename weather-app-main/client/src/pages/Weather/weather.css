@@ -1,0 +1,23 @@
+.weather-container {
+  display: flex;
+  background: #dde4e6 0% 0% no-repeat padding-box;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 77vh;
+  margin: 2rem 5rem 0 0;
+  height: 90vh;
+  border-radius: 4px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .weather-container {
+    min-width: 90vh;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .weather-container {
+    min-width: 50vw;
+    max-height: 80vh;
+  }
+}
